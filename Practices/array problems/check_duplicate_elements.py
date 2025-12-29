@@ -11,11 +11,11 @@
 # print(found)
 
 #Write a program to count duplicate elements from an array
-array1 = [10,20,3,4,5,6,7,1,2,3,7]
+array1 = [10,20,3,4,5,6,7,1,2,3,7,10]
 for i in range(len(array1)):
     count = 1
     is_duplicate = False
-     # check if this element appeared before
+    #  check if this element appeared before
     for j in range(i):
         if array1[i] == array1[j]:
             is_duplicate = True
